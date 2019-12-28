@@ -1,11 +1,12 @@
 body {
-    background: #fff;
+    
     font-family: 'Open Sans', sans-serif;
   }
   
   .container {
     width: 1140px;
     margin: 50px auto;
+    background: url("scott-webb-vrYennkq3QM-unsplash.jpg");
   }
   
   .clear:after {
