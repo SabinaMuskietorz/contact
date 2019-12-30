@@ -1,12 +1,11 @@
 body {
-    
+    background-color:#ffaf49;
     font-family: 'Open Sans', sans-serif;
   }
   
   .container {
     width: 1140px;
     margin: 50px auto;
-    background: url("scott-webb-vrYennkq3QM-unsplash.jpg");
   }
   
   .clear:after {
@@ -86,7 +85,7 @@ body {
     border: 0px;
     outline: 0px;
     color: #fff;
-    background-color: black;
+    background-color:#ef4fa6;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
@@ -148,9 +147,4 @@ body {
   .input-block input.active + label + .border,
   .textarea-block textarea.active + label + .border {
     width: 100%;
-  }
-  
-  .input-block input.active + label + .border,
-  .textarea-block textarea.active + label + .border {
-    background: linear-gradient(to right, #1ebf05 0%,#013d07 100%);
   }
