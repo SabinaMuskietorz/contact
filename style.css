@@ -1,12 +1,20 @@
 body {
-    background-color:#ffaf49;
-    font-family: 'Open Sans', sans-serif;
+  
+  font-family: 'Roboto Slab', serif;
+  background: url("desk-laptop-macbook-pro-working-69432.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* how to use filter https://developer.mozilla.org/en-US/docs/Web/CSS/filter */
+.back {
+  width:100%;
+  height: 100%;
+  position: fixed;
+  filter: opacity(70%);
+  margin: 0;
   }
   
-  .container {
-    width: 1140px;
-    margin: 50px auto;
-  }
+  
   
   .clear:after {
     content: "";
@@ -19,13 +27,11 @@ body {
     text-align: center;
     color: #313131;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
   }
   
   /* form styles */
-  form {
-    margin-top: 80px;
-  }
+  
   
   .input-block {
     width: 31%;
@@ -87,7 +93,7 @@ body {
     color: #fff;
     background-color:#ef4fa6;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 18px;
     letter-spacing: 2px;
     padding: 20px 40px;
